@@ -1,0 +1,59 @@
+## OS
+.DS_Store
+Thumbs.db
+
+## JetBrains / Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+*.resharper
+
+## Visual Studio / MSBuild
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Bb]uild[Ll]og/
+*.cache
+artifacts/
+
+## .NET / NuGet
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+.nuget/
+**/packages/
+!**/packages/build/
+
+## Test / coverage
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+coverage*
+*.coverage
+*.coveragexml
+
+## Local secrets / env (never commit passwords)
+.env
+.env.*
+*.pfx
+
+## Docker / tooling (optional local overrides)
+docker-compose.override.yml
